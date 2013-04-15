@@ -19,14 +19,14 @@ Steps to recreate using this repo:
 
 This is what the output looks like for me:
 
-~/formatfail$ node\_modules/.bin/jasmine-node --forceexit spec/
-Express server listening on port 3000
-PUT /file 404 1ms
-.PUT /file 404 4ms
-PUT /file 500 3ms - 668
-F
-
-Failures:
+ ~/formatfail$ node\_modules/.bin/jasmine-node --forceexit spec/
+ Express server listening on port 3000
+ PUT /file 404 1ms
+ .PUT /file 404 4ms
+ PUT /file 500 3ms - 668
+ F
+ 
+ Failures:
 
   1) my application can both send data and upload a file
    Message:
@@ -74,8 +74,8 @@ Failures:
     at IncomingMessage.Request.end (/home/dihnen/formatfail/node_modules/supertest/node_modules/superagent/lib/node/index.js:704:12)
     at IncomingMessage.EventEmitter.emit (events.js:123:20)
 
-Finished in 0.056 seconds
-3 tests, 9 assertions, 2 failures
+ Finished in 0.056 seconds
+ 3 tests, 9 assertions, 2 failures
 
 
 
