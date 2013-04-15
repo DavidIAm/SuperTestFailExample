@@ -5,17 +5,17 @@ An example of super test/super agent/http node libraries failing to properly han
 
 How I created this repo:
 
-# Initialize an empty express app
-# add a spec directory
-# put my test file in the spec directory
-# put a test jpg in the spec directory
+1. Initialize an empty express app
+1. add a spec directory
+1. put my test file in the spec directory
+1. put a test jpg in the spec directory
 
 Steps to recreate using this repo:
 
-# clone this repo onto your system
-# make sure you have node 0.10.0 or better installed
-# run npm install
-# run node node\_modules/.bin/jasmine-node --forceexit spec/
+1. clone this repo onto your system
+1. make sure you have node 0.10.0 or better installed
+1. run npm install
+1. run node node\_modules/.bin/jasmine-node --forceexit spec/
 
 This is what the output looks like for me:
 
